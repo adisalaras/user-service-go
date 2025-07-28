@@ -1,0 +1,23 @@
+@"
+# Ignore binary files from Go build
+*.exe
+*.out
+
+# Ignore Go test files
+*.test
+
+# Ignore vendor folder (if you use go mod vendor)
+vendor/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Local environment config
+.env
+*.local.*
+"@ | Out-File .gitignore -Encoding utf8
